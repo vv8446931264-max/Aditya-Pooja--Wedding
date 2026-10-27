@@ -32,11 +32,11 @@
 :root {
   --ivory: #fbf7ee;
   --paper: #fffdf8;
-  --sage: #7d9a82;
-  --sage-deep: #4d6a55;
-  --sage-pale: #e8efe4;
-  --burgundy: #7b1e3c;
-  --kumkum: #b31b3c;
+  --sage: #9B7DA8;
+  --sage-deep: #5C3170;
+  --sage-pale: #F0E8F5;
+  --burgundy: #6E1845;
+  --kumkum: #9B1B54;
   --gold: #b48a43;
   --gold-soft: #d9c08b;
   --gold-pale: #f4e9cf;
@@ -45,7 +45,7 @@
   --ink: #3b3a33;
   --ink-soft: #6b675b;
   --line: rgba(180, 138, 67, .4);
-  --shadow: 0 20px 44px -24px rgba(77, 106, 85, .55);
+  --shadow: 0 20px 44px -24px rgba(92, 49, 112, .45);
   --script: 'Pinyon Script', cursive;
   --calli: 'Gotu', 'Tiro Devanagari Marathi', serif;
   --serif: 'Cormorant Garamond', 'Tiro Devanagari Marathi', Georgia, serif;
@@ -53,7 +53,7 @@
   /* leaf damask, after the card's pearl-printed background */
   --damask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='80' viewBox='0 0 64 80'%3E%3Cg fill='%23b48a43' fill-opacity='.075'%3E%3Cg id='m'%3E%3Cpath d='M32 6c6 9 7 18 0 27-7-9-6-18 0-27z'/%3E%3Cpath d='M32 33c-6-1-12-5-14-12 6 1 11 5 14 12z'/%3E%3Cpath d='M32 33c6-1 12-5 14-12-6 1-11 5-14 12z'/%3E%3Cpath d='M31.3 33h1.4v7h-1.4z'/%3E%3C/g%3E%3Cuse href='%23m' x='-32' y='40'/%3E%3Cuse href='%23m' x='32' y='40'/%3E%3C/g%3E%3C/svg%3E");
   --surface: var(--damask), linear-gradient(170deg, #fdfaf3, #f8f2e5 55%, #fcf8f0);
-  --surface-alt: var(--damask), linear-gradient(172deg, #edf2e8, #e3ebdf 50%, #ebf1e6);
+  --surface-alt: var(--damask), linear-gradient(172deg, #f0e8f2, #e8dff0 50%, #ede6f2);
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -146,9 +146,9 @@ html[data-lang="en"] [lang="mr"]:not([data-set]) { display: none !important; }
   border-radius: 3px 3px 6px 6px;
   background:
     linear-gradient(112deg, transparent 28%, rgba(255, 255, 255, .15) 42%, transparent 56%),
-    repeating-linear-gradient(90deg, rgba(255, 255, 255, .06) 0 3.5%, rgba(20, 40, 28, .08) 7%, rgba(255, 255, 255, .06) 10.5%),
-    linear-gradient(180deg, #6f8d74, #627f68 55%, #59755f);
-  box-shadow: 0 34px 50px -30px rgba(40, 60, 45, .75), inset 0 0 0 1px rgba(255, 255, 255, .08);
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, .06) 0 3.5%, rgba(40, 20, 50, .08) 7%, rgba(255, 255, 255, .06) 10.5%),
+    linear-gradient(180deg, #7B4D8E, #6A3B7E 55%, #5C3170);
+  box-shadow: 0 34px 50px -30px rgba(60, 30, 70, .75), inset 0 0 0 1px rgba(255, 255, 255, .08);
 }
 /* Paithani-style zari border: gold lines around a burgundy band of gold diamonds */
 .zari {
@@ -187,7 +187,7 @@ html[data-lang="en"] [lang="mr"]:not([data-set]) { display: none !important; }
   padding: .75em 1.9em;
   border: 1px solid var(--gold);
   border-radius: 999px;
-  background: linear-gradient(180deg, #8d2648, var(--burgundy));
+  background: linear-gradient(180deg, #7B2D8E, var(--burgundy));
   color: var(--paper);
   font: 600 .8rem/1.2 var(--serif);
   letter-spacing: .18em;
@@ -599,7 +599,7 @@ html[data-lang="mr"] .cd-done { font: 400 1.6rem/1.5 var(--calli); }
             <use class="finial" href="#mg" x="526" y="40" width="70" height="70"/>
             <ellipse class="ground" cx="561" cy="1500" rx="580" ry="74" fill="url(#groundFill)"/>
           </svg>
-          <div class="paint"><img src="couple.webp" width="1122" height="1402" data-mr-label="आदित्य आणि पूजा यांचे जलरंगातील चित्र" data-en-label="Watercolour painting of Aditya in an ivory bandhgala and Pooja in a sage-green lehenga with a blush dupatta, arm in arm among flowers" alt="आदित्य आणि पूजा यांचे जलरंगातील चित्र"></div>
+          <div class="paint"><img src="couple.webp" width="900" height="1124" data-mr-label="आदित्य आणि पूजा यांचे चित्र" data-en-label="Illustration of Aditya in an ivory sherwani and Pooja in a purple Paithani saree with gold accents" alt="आदित्य आणि पूजा यांचे चित्र"></div>
         </figure>
         <p class="tap-hint" id="tapHint"><span lang="mr">चित्राला स्पर्श करून वधू-वरांवर अक्षता टाका</span><span lang="en">Tap the painting to shower akshata — blessed rice — on the couple</span></p>
       </div>
