@@ -1,0 +1,5 @@
+# client source files — keep off the public site
+*.pdf
+*.jpeg
+Watercolor Wedding Portrait with Floral Accents.png
+.claude/
